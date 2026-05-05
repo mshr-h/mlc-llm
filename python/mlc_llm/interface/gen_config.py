@@ -298,6 +298,8 @@ TOKENIZER_FILES = [
     "merges.txt",
     "added_tokens.json",
     "tokenizer_config.json",
+    "special_tokens_map.json",
+    "chat_template.jinja",
 ]
 # FIXME: Copy RWKV tokenizer file
 
@@ -353,6 +355,8 @@ CONV_TEMPLATES = {
     "olmo2",
     "nemotron",
     "llm-jp",
+    "llm_jp_4_harmony",
+    "llm_jp_4_harmony_thinking",
     "qwen3",
     "qwen3_5",
     "qwen3_5_nothink",
